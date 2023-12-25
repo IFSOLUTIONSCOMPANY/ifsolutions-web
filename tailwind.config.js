@@ -2,7 +2,18 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontSize: {
+        'xxs': '0.65rem',
+      }
+    },
+    container: {
+      center: true,
+      padding: '1rem',
+      screens: {
+        'lg': '1260px',
+      },
+    },
   },
   plugins: [require("daisyui")],
   daisyui: {
