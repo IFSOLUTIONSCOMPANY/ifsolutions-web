@@ -1,6 +1,7 @@
 import React from "react";
 import bgBanner from "/assets/images/banner/bg-banner.png";
 import rightImage from "/assets/images/banner/right-img.png";
+import VideoModal from "./VideoModal";
 
 function Banner() {
   return (
@@ -31,7 +32,7 @@ function Banner() {
               Contact Us
             </button>
             <div className="flex items-center">
-                <i className="btn border-0 fa-solid fa-play text-[#706FE5] px-5 bg-[#706FE5]/20 hover:bg-[#706FE5] hover:text-white transition-all rounded-full text-xs shadow-md cursor-pointer"></i>
+                <i onClick={() => document.getElementById("my_modal_4").showModal()} className="btn border-0 fa-solid fa-play text-[#706FE5] px-5 bg-[#706FE5]/20 hover:bg-[#706FE5] hover:text-white transition-all rounded-full text-xs shadow-md cursor-pointer"></i>
                 <div className="ml-3 flex flex-col text-left space-y-1">
                     <span className="text-gray-950 text-xs font-medium">Watch our</span>
                     <span className="text-gray-950 text-xs font-medium">introduction video</span>
@@ -43,6 +44,7 @@ function Banner() {
       <div className="md:w-1/3 flex items-center justify-center mx-auto text-center">
         <img src={rightImage} alt="right-img" className="md:w-full md:h-auto h-64 mt-8 md:mt-0" />
       </div>
+      <VideoModal />
     </div>
   );
 }
