@@ -15,12 +15,12 @@ function Banner() {
     >
       <div className="md:w-2/3 mb-16">
         <div className="flex flex-col text-center">
-          <div className="font-bold text-5xl text-gray-600 mt-20 drop-shadow-md">
+          <div className="font-bold text-3xl lg:text-5xl text-gray-600 mt-20 drop-shadow-md">
             <span className="text-[#706FE5]">I</span>&
             <span className="text-[#706FE5]">F</span> SOLUTIONS
           </div>
-          <div className="font-bold text-5xl text-gray-600 mt-5 drop-shadow-md">
-            Votre Allié <span className="text-[#706FE5]">Numérique</span>
+          <div className="font-bold text-3xl lg:text-5xl text-gray-600 mt-5 drop-shadow-md">
+            Votre Allié <span className="text-[#706FE5]">Numérique <i class="fa-solid fa-microchip"></i></span>
           </div>
           <div className="text-gray-700 md:w-2/3 w-5/6 mx-auto mt-5">
             Offrant création de sites web, formations SEO et partage d'expertise
