@@ -4,7 +4,7 @@ function Services() {
   return (
     <div className="mt-24 flex flex-col">
       <h2 className="text-center text-3xl font-bold text-gray-600">
-        Nos services
+        Nos services <i class="text-[#706FE5] fa-solid fa-layer-group"></i>
       </h2>
       <div class="h-1 bg-gray-300 w-12 mx-auto my-10"></div>
       <div className="w-4/6 text-center flex mx-auto text-gray-400">
