@@ -10,13 +10,13 @@ const data = {
     },
     "1": {
         "title": "Installation d’infrastructure réseaux et parc informatique",
-        "description": "Notre service de formation SEO vous permet d'acquérir les compétences nécessaires pour optimiser votre visibilité en ligne. Nous vous enseignons les meilleures pratiques en matière de référencement, de manière à améliorer le classement de votre site web sur les moteurs de recherche et à attirer davantage de visiteurs organiques.",
-        "src": service2,
+        "description": "De la conception à la mise en œuvre, nous nous occupons de l'ensemble du processus. Nous installons des réseaux fiables et sécurisés, configurons votre parc informatique, et assurons une intégration fluide de tous vos équipements informatiques. Notre objectif est d'optimiser la performance de votre système informatique pour une efficacité accrue.",
+        "src": service3,
     },
     "2": {
         "title": "Support technique continue",
-        "description": "Notre service de formation informatique vous offre l'opportunité de développer vos compétences techniques. Que vous soyez débutant ou expérimenté, nos cours informatiques couvrent une gamme de sujets, de la programmation à la sécurité informatique. Améliorez vos compétences et restez à jour avec les dernières avancées technologiques.",
-        "src": service3,
+        "description": "Notre service de support technique continue est dédié à résoudre vos problèmes informatiques rapidement et efficacement. Notre équipe d'experts est disponible 24/7 pour vous assister en cas de dysfonctionnements, de pannes ou de questions techniques. Nous offrons un support à distance ou sur place pour garantir le bon fonctionnement de vos équipements et logiciels. Faites confiance à notre expertise pour un environnement informatique stable et sécurisé.",
+        "src": service2,
     },
 
 }

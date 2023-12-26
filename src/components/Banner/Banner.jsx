@@ -13,7 +13,7 @@ function Banner() {
         backgroundSize: "cover",
       }}
     >
-      <div className="md:w-2/3 mb-10">
+      <div className="md:w-2/3 mb-16">
         <div className="flex flex-col text-center">
           <div className="font-bold text-5xl text-gray-600 mt-20 drop-shadow-md">
             <span className="text-[#706FE5]">I</span>&
@@ -41,7 +41,7 @@ function Banner() {
           </div>
         </div>
       </div>
-      <div className="md:w-1/3 flex items-center justify-center mx-auto text-center">
+      <div className="md:w-1/3 mb-16 flex items-center justify-center mx-auto text-center">
         <img src={rightImage} alt="right-img" className="md:w-full md:h-auto h-64 mt-8 md:mt-0" />
       </div>
       <VideoModal />
