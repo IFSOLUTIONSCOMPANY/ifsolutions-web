@@ -2,7 +2,7 @@ import logo from "/assets/logo.png";
 
 function Navbar() {
   return (
-    <div className="navbar bg-[#2A2B47] p-4 py-6 rounded-xl mt-3 shadow-lg flex justify-between sticky top-0 z-40">
+    <div className="navbar p-4 py-6 shadow-lg flex justify-between z-40">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex="0" role="button" className="btn btn-ghost lg:hidden">
