@@ -17,9 +17,17 @@ function App() {
 
       <div className="container mx-auto relative">
         <Banner />
+
+        <div id="services" className="h-16"></div>
         <Services />
+
+        <div id="about" className=""></div>
         <About />
+
+        <div id="team" className="h-10"></div>
         <Team />
+
+        <div id="contact" className="h-10"></div>
         <Contact />
       </div>
       <div className="bg-[#2A2B47]">

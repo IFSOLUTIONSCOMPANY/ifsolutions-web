@@ -4,10 +4,11 @@ export default function Footer() {
   return (
     <footer className="footer footer-center p-10 text-base-content rounded mt-10">
       <nav className="grid grid-flow-col gap-4 text-white">
-        <a className="link link-hover">About us</a>
-        <a className="link link-hover">Contact</a>
-        <a className="link link-hover">Jobs</a>
-        <a className="link link-hover">Press kit</a>
+        <a href="#services" className="link link-hover">Services</a>
+        <a href="" className="link link-hover">News</a>
+        <a href="#about" className="link link-hover">About</a>
+        <a href="#team" className="link link-hover">Nos Experts</a>
+        <a href="#contact" className="link link-hover">Contactez-nous</a>
       </nav>
       <nav>
         <div className="grid grid-flow-col gap-4">
