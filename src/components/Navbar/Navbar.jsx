@@ -26,19 +26,19 @@ function Navbar() {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a>Services</a>
+              <a href="#services">Services</a>
             </li>
             <li>
               <a>News</a>
             </li>
             <li>
-              <a>About</a>
+              <a href="#about">About</a>
             </li>
             <li>
-              <a>Nos Experts</a>
+              <a href="#team">Nos Experts</a>
             </li>
             <li>
-              <a>Contactez-nous</a>
+              <a href="#contact">Contactez-nous</a>
             </li>
           </ul>
         </div>
@@ -54,19 +54,19 @@ function Navbar() {
           className="menu menu-horizontal mr-28 text-white font-semibold text-xxs"
         >
           <li className="hover:text-gray-300">
-            <a>SERVICES</a>
+            <a href="#services">SERVICES</a>
           </li>
           <li className="hover:text-gray-300">
             <a>NEWS</a>
           </li>
           <li className="hover:text-gray-300">
-            <a>ABOUT</a>
+            <a href="#about">ABOUT</a>
           </li>
           <li className="hover:text-gray-300">
-            <a>NOS EXPERTS</a>
+            <a href="#team">NOS EXPERTS</a>
           </li>
           <li className="hover:text-gray-300">
-            <a>CONTACTEZ-NOUS</a>
+            <a href="#contact">CONTACTEZ-NOUS</a>
           </li>
         </ul>
       </div>
