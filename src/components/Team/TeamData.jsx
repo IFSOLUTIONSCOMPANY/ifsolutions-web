@@ -21,14 +21,6 @@ const teamMembers = [
     imageUrl: "/assets/images/team/3.jpg",
     linkedInUrl: "https://www.linkedin.com/in/marceau-kakou-9324b2214/",
   },
-  {
-    name: "Kwah COUBEH",
-    position: "Directeur des Crampté",
-    role: "Développement cramptesque",
-    imageUrl: "/assets/images/team/4.jpg",
-    linkedInUrl: "#",
-  },
-
 ];
 
 export default teamMembers;

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 function VideoModal() {
-  const videoURL = "https://www.youtube.com/embed/slLieSoLw2M?si=B0_evrj4aBR6Tm_G";
+  const videoURL = "https://www.youtube.com/embed/KLadZaWrKh0?si=GHr-SyLigj4NSMSG";
   const [url, setUrl] = useState(videoURL);
 
   const handleClose = () => {

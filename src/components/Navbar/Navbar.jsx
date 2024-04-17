@@ -57,9 +57,6 @@ function Navbar() {
             <a href="#services">SERVICES</a>
           </li>
           <li className="hover:text-gray-300">
-            <a>NEWS</a>
-          </li>
-          <li className="hover:text-gray-300">
             <a href="#about">ABOUT</a>
           </li>
           <li className="hover:text-gray-300">
