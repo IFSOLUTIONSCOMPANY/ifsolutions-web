@@ -51,18 +51,18 @@ function Navbar() {
       <div className="navbar-center hidden lg:flex">
         <ul
           id="navbar-ul"
-          className="menu menu-horizontal mr-28 text-white font-semibold text-xxs"
+          className="menu menu-horizontal mr-28 text-white font-semibold text-xs"
         >
-          <li className="hover:text-gray-300">
+          <li className="hover:text-gray-300 hover:underline">
             <a href="#services">SERVICES</a>
           </li>
-          <li className="hover:text-gray-300">
+          <li className="hover:text-gray-300 hover:underline">
             <a href="#about">ABOUT</a>
           </li>
-          <li className="hover:text-gray-300">
+          <li className="hover:text-gray-300 hover:underline">
             <a href="#team">NOS EXPERTS</a>
           </li>
-          <li className="hover:text-gray-300">
+          <li className="hover:text-gray-300 hover:underline">
             <a href="#contact">CONTACTEZ-NOUS</a>
           </li>
         </ul>
